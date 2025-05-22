@@ -86,17 +86,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
-        {/* Bottom section with copyright and links */}
-        <div className="border-t pt-6 flex flex-col md:flex-row items-center justify-between text-sm">
-          <div className="text-gray-500 mb-4 md:mb-0">© 2024 Limitless Hydrate. All rights reserved.</div>
-          <div className="flex space-x-6">
-            <Link to="/terms" className="text-gray-500 hover:text-gray-900">Terms of Service</Link>
-            <Link to="/privacy" className="text-gray-500 hover:text-gray-900">Privacy Policy</Link>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </div>   
+  </footer>
   );
 };
 
