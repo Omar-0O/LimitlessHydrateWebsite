@@ -7,7 +7,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="h-full">
           <img 
-            src="public/lovable-uploads/ae9b3a6e-d4af-4c12-a863-ccfee3f59990.png"
+            src="public/images/contact.jpg"
             alt="Limitless Hydrate Products" 
             className="w-full h-full object-cover object-center"
           />

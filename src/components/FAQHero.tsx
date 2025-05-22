@@ -8,7 +8,7 @@ const FAQHero = () => {
         {/* Background image */}
         <div className="relative w-full h-[360px] md:h-[420px]">
           <img 
-            src="public/lovable-uploads/94447b25-cdda-4e66-b7cc-c97ec78660e8.png" 
+            src="public/images/thatmanwithpen.jpg" 
             alt="Limitless Hydrate Product on Desk" 
             className="w-full h-full object-cover"
           />
