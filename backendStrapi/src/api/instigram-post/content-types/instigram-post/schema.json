@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instigram_posts",
+  "info": {
+    "singularName": "instigram-post",
+    "pluralName": "instigram-posts",
+    "displayName": "InstigramPost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "thepost": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

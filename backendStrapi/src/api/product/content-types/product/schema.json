@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "hydrateproduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "productName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Flavour": {
+      "type": "string"
+    },
+    "Sizeperstick": {
+      "type": "string"
+    },
+    "Available_on": {
+      "type": "string"
+    },
+    "mainPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "secondaryPhotos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SupplementFacts": {
+      "type": "json"
+    },
+    "ingredients": {
+      "type": "json"
+    },
+    "sizeperContainer": {
+      "type": "string"
+    }
+  }
+}
